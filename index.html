@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+      <script defer src="quiz.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="start">Bring It On!</div>
+        <img id="startQuiz" src="https://gumlet.assettype.com/thequint/2019-11/259d8fb8-a1ec-4f8f-b2bb-030651b71b46/iStock_973102672.jpg">
+        <div id="quiz" style="display: none">
+            <div id="question"></div>
+            <div id="questionImg"></div>
+            <div id="answers">
+                <div class="answer" id="a" onclick="checkAnswer('A')"></div>
+                <div class="answer" id="b" onclick="checkAnswer('B')"></div>
+                <div class="answer" id="c" onclick="checkAnswer('C')"></div>
+            </div>
+            <div id="timer">
+                <div id="counter"></div>
+                <div id="btimer"></div>
+                <div id="timer"></div>
+            </div>
+            <div id="progress"></div>
+        </div>
+        <div id="scoreContainer" style="display: none"></div>
+    </div>
+​
+    <
+    <script src="quiz.js"></script>
+</body>
+</html>
+​
+<!--<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="quiz.css">
+    <script defer src="quiz.js"></script>
+    <title>Timed Quiz!</title>
+</head>
+<header>
+    <div class="container">
+        <div>countDown</div>
+    </div>
+</header>
+<body>
+    <h1 id="head">Quizzer Wizard</h1>
+    <div class="controls">
+        <button type="button" class="start-btn btn btn-secondary btn-lg btn-block" id="startQuiz">Jump Start My
+            Heart!</button>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card" style="width: 100%;">
+                    <img src="https://swoonproduction.s3.amazonaws.com/media/images/quiz_header_2.2e16d0ba.fill-620x413.jpg"
+                        id="quiz-time" alt="Get Ya Quiz On">
+                    <div class="card-body">
+                        <p class="card-text">Let's see how you measure up!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-5" id="quiz">
+                <div class="card2" id="card-questions" style="width: 100%;">
+                    <div class="card-body card-questions">
+                        <h5 class="card-title" id="Q1">Q1</h5>
+                        <div class="answers_1">
+                            <button class="btn btn-primary answer-btn" id="1_1">A1</a>
+                                <button class="btn btn-primary answer-btn" id="1_2">A2</a>
+                                    <button class="btn btn-primary answer-btn" id="1_3">A3</a>
+                                        <button class="btn btn-primary answer-btn" id="1_4">A4</a>
+                        </div>
+                        <button type="button" class="btn btn-primary next-btn controls" id="next-btn">"Bring On the Next
+                            One"</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--<div class="progress"> 
+                <div class="progress-bar progress-bar-striped progress-bar-animated" id="countDown" role="progressbar"
+                    aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+            </div>-->
+​
+​
+​
+<!-- Optional JavaScript -->
+​
+​
+<!--<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+</html>-->
