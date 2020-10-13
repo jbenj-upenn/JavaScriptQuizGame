@@ -1,6 +1,7 @@
 body{
     font-size: 20px;
     font-family: monospace;
+    /* background-image: url('https://gumlet.assettype.com/thequint/2019-11/259d8fb8-a1ec-4f8f-b2bb-030651b71b46/iStock_973102672.jpg'); */
 }
 ​
 #container{
@@ -15,16 +16,19 @@ body{
 #start{
     font-size: 1.5em;
     font-weight: bolder;
-    word-break: break-all;
-    width:100px;
-    height:150px;
+    /* word-break: break-all; */
+    /* font-size:  */
+    width:200px;
+    /* height:450px; */
     border : 2px solid rgb(136, 230, 14);
     text-align: center;
     cursor: pointer;
     position: absolute;
-    left:50px;
-    top:50px;
+    left:200px;
+    top:150px;
     color : lightgrey;
+    background-color: darkcyan;
+
 }
 #start:hover{
     border: 5px solid rgb(136, 230, 14);
@@ -34,7 +38,7 @@ body{
 ​
 #startQuiz{
     width: 73vw;
-    height: 32vw;
+    height: 32vh;
 }
 ​
 #questionImg{
